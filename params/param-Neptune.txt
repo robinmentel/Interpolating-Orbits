@@ -1,0 +1,18 @@
+# specifies how fit param can be described
+# 0: const
+# 1: sine; only per and amp are given; rest fitted during interpolation
+# number of params to be fitted are 2 times n_type if n_type /= 0  
+###
+SMA
+4350 8.01e-3 2.72 4350
+1.58e-3
+164.79
+1.06e-3
+ECC
+4350 9.87e-3 2.72 164.79
+1.06e-3
+INC
+AOP
+4350 9.87e-3 2.72 164.79
+0.27
+LAN
