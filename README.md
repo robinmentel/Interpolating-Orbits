@@ -5,6 +5,7 @@ All you need to do is to clone this repo to your drive, open the file "interpola
 
 For the algorithm, I parametrized the progression of the orbital elements of a new simulation by fitting them with one to three sinusoids. Please take a look into my thesis that can be found in this repo for a documentation of the algorithm itself as well as the two simulations that this algorithm is based on. The document also gives an estimation for the precision of the algorithm.
 
-This repo does not contain the data from the two simulations since they are too big (a few 100 MB), but a collection of plots that show the fits and the progression of the orbital elements from both simulations.
+This repo does not contain the entire data from the two simulations since they are too big (a few 100 MB), but a small excerpt of the data from the first simulation. The excerpt covers 100,000 years, or 1,000 snapshots. If the interpolation script is run without the larger data set, only orbital elements for times smaller than 100,000 years can be interpolated.
+This repo also holds collection of plots that show the fits and the progression of the orbital elements in the second simulation.
 
 This algorithm made use of Numpy, Scipy, as well as AMUSE and Brutus: http://amusecode.org/
